@@ -11,7 +11,7 @@ extension Bundle {
     class func myBundle() -> Bundle? {
         
         let bundle = Bundle(for: PinyinHelper.self)
-        if let path = bundle.path(forResource: "Pinyin4Swift", ofType: "bundle") {
+        if let path = bundle.path(forResource: "Pinyin4Swift_Pinyin4Swift", ofType: "bundle") {
             return Bundle(path: path)
         } else {
             return nil
